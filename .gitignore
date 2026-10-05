@@ -1,0 +1,23 @@
+# Ignore generated data
+/docs/
+/lib/
+
+# Ignore all bin files except the placeholder
+/bin/*
+!/bin/.keep
+
+# Ignore MacOS files
+.DS_Store
+
+# Ignore Spectator test failure cache
+/.spectator-failures
+
+# Ignore local Claude Code settings
+/.claude/settings.local.json
+
+# Library: do not pin a lockfile
+/shard.lock
+
+# Compiled at build time by the macro in src/watch/fsevents.cr
+/src/watch/fsevents_shim.o
+/src/watch/fsevents_shim.o.*
