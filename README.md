@@ -1,5 +1,10 @@
 # watch
 
+[![CI](https://github.com/jbox-web/watch.cr/actions/workflows/ci.yml/badge.svg)](https://github.com/jbox-web/watch.cr/actions/workflows/ci.yml)
+[![Tag](https://img.shields.io/github/v/tag/jbox-web/watch.cr?sort=semver)](https://github.com/jbox-web/watch.cr/tags)
+[![Crystal](https://img.shields.io/badge/crystal-%3E%3D%201.18-black?logo=crystal)](https://crystal-lang.org)
+[![License](https://img.shields.io/github/license/jbox-web/watch.cr)](LICENSE)
+
 Native file watching for Crystal: **inotify** on Linux, **FSEvents** on macOS,
 **polling** everywhere else — with a path filter that prunes before it lists,
 event coalescing, and a watcher that picks a backend and falls back on its own.
